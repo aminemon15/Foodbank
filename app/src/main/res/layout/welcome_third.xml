@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#9C8B26"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_directions_run_black_24dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <TextView
+            android:layout_marginTop="32.0dp"
+            android:textAlignment="center"
+            android:text="YUK LANGSUNG KE LOKASI"
+            android:textColor="#FFFFFF"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="32.0dp"
+            android:textAlignment="center"
+            android:text="Banyak Menu yang kita punya, ada Makanan Minuman dan juga Dissert"
+            android:textColor="#44EED4"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
